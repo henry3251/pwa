@@ -1,6 +1,6 @@
 var files = [
-  "/pwa/index.html",
-  "/pwa/manifest.json",
+  "/henry3251/pwa/index.html",
+  "/henry3251/pwa/manifest.json",
 ];
 // dev only
 if (typeof files == 'undefined') {
@@ -9,7 +9,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'henry-v1';
+var CACHE_NAME = 'PWA-V1';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
