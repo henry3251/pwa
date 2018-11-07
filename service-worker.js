@@ -1,6 +1,6 @@
 var files = [
-  "/henry3251/pwa/index.html",
-  "/henry3251/pwa/manifest.json",
+  "/pwa/index.html",
+  "/pwa/manifest.json",
 ];
 // dev only
 if (typeof files == 'undefined') {
